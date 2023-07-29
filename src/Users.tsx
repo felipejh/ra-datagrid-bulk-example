@@ -47,7 +47,7 @@ export const UserList = (props) => {
           <UserListBulkActionButtons handleClickSelectAll={setSelectedUsers} />
         }
       >
-        <TextField source="id" />
+        <TextField source="id" label="Installment" />
         <TextField source="name" />
         <EmailField source="email" />
       </Datagrid>
